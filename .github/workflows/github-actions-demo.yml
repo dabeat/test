@@ -1,7 +1,6 @@
 name: dabeat-action-test
 on: 
   pull_request:
-  jobs:
     push:
       branches:
         - main
