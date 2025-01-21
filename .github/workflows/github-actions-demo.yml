@@ -13,4 +13,4 @@ jobs:
       - name: First_step
         id: first_step
         run: |
-          echo "Hello world there!"
+          echo "Hello world there"
