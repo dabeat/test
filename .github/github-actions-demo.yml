@@ -1,0 +1,16 @@
+name: dabeat-action-test
+on: 
+  pull_request:
+  jobs:
+    push:
+      branches:
+        - main
+
+jobs:
+  log-coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First_step
+        id: first_step
+        run: |
+          echo "Hello world"
