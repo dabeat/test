@@ -13,4 +13,4 @@ jobs:
       - name: First_step
         id: first_step
         run: |
-          echo "Hello world there: $MY_SUPER_VAR"
+          echo "Hello world there, $MY_SUPER_VAR"
