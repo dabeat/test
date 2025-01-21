@@ -1,7 +1,6 @@
 name: dabeat-action-test
 on: 
   pull_request:
-  jobs:
     push:
       branches:
         - main
@@ -13,4 +12,6 @@ jobs:
       - name: First_step
         id: first_step
         run: |
-          echo "Hello world there: $MY_SUPER_VAR"
+          echo "Hello world there, $MY_SUPER_VAR"
+        env:
+          MY_SUPER_VAR: ${{ vars.MY_SUPER_VAR }}
